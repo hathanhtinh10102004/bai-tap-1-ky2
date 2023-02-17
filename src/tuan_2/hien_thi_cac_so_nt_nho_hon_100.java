@@ -7,7 +7,7 @@ public class hien_thi_cac_so_nt_nho_hon_100 {
         int num = 3;
         System.out.println("số nguyên tố nhỏ hơn 100 là: ");
         System.out.println(2);
-        for (int i = 2; i < 51;){
+        for (int i = 2; i <= 50;){
             for (int j = 2; j <= Math.sqrt(num); j++){
                 if (num%2 == 0){
                     status = 0;
@@ -18,6 +18,7 @@ public class hien_thi_cac_so_nt_nho_hon_100 {
                 System.out.println(num);
                 i++;
                 count ++;
+
             }
             status = 1;
             num ++;
